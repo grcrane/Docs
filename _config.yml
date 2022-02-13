@@ -10,8 +10,6 @@ pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
 
-http://joshualande.com/jekyll-github-pages-poole
-
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
