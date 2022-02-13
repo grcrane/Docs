@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "About"
 permalink: /Docs/about.html
 ---

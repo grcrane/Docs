@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Home"
 permalink: /Docs/readme.html
 ---
