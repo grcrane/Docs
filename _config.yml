@@ -1,1 +1,11 @@
-theme: jekyll-theme-cayman
+# basic options
+title: My awesome title
+author: George Crane
+email: georgecrane@mac.com
+description: My wonderful site
+twitter_username: grcrane
+github_username:  grcrane
+
+# Build settings
+markdown: kramdown
+theme: minima
