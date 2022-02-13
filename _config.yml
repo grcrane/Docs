@@ -5,7 +5,12 @@ email: georgecrane@mac.com
 description: My wonderful site
 twitter_username: grcrane
 github_username:  grcrane
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
+http://joshualande.com/jekyll-github-pages-poole
 
 # Build settings
 markdown: kramdown
-theme: minimal
