@@ -14,3 +14,4 @@ http://joshualande.com/jekyll-github-pages-poole
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-cayman
