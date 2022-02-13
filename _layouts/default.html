@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     {% include head-custom.html %}
-    <style>
+<style>
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -87,15 +87,21 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-$('#myTopnav a').on('click',function() {
-  $('#myTopnav a').removeClass('active');
-  $(this).addClass('active');
+$(document).ready(function() {
+  $('#myTopnav a').on('click',function(e) {
+    e.preventDefault(); 
+    $('#myTopnav a').removeClass('active');
+    $(this).addClass('active');
+  })
 })
 </script>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <div class="topnav" id="myTopnav">
+      {% for page in site.pages_list %}
+        <a href="{{ page[1]  }}">{{ page[0] }}</a>
+      {% endfor %}
         <a href="#home" class="active">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
