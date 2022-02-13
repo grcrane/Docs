@@ -97,12 +97,14 @@ $(document).ready(function() {
 </script>
   </head>
   <body>
-    <pre id="jekyll-debug"></pre>
-<script>
-  var obj = JSON.parse(decodeURIComponent("{{ site | jsonify | uri_escape }}"));
-  var prettyJson = JSON.stringify(obj, null, 4);  // Pretty-printed JSON (indented 4 spaces).
-  document.getElementById("jekyll-debug").textContent = prettyJson;
-</script>
+
+<pre>
+    site: {{ site | jsonify | escape }}
+    page: {{ page | jsonify | escape }}
+    layout: {{ layout | jsonify | escape }}
+    content: {{ content | jsonify | escape }}
+    paginator: {{ paginator | jsonify | escape }}
+</pre>
 
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <div class="topnav" id="myTopnav">
