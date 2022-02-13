@@ -2,7 +2,7 @@
 title: "Admin"
 ---
 
-# About this project
+# About being an Admin
 
 In a word: **Awesome!**
 

@@ -2,7 +2,7 @@
 title: "Editor"
 ---
 
-# About this project
+# About being an editor
 
 In a word: **Awesome!**
 
