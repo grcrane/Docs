@@ -12,6 +12,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     {% include head-custom.html %}
     <style>
 body {
@@ -86,6 +87,10 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+$('#myTopnav a').on('click',function() {
+  $('#myTopnav a').removeClass('active');
+  $(this).addClass('active');
+})
 </script>
   </head>
   <body>
