@@ -1,6 +1,7 @@
 # basic options
 
-pages_list:       
+pages_list:  
+  Home: '/Docs/'     
   About: '/Docs/about.html'
   Editor: '/Docs/editor.html'
   Admin: '/Docs/admin.html'
