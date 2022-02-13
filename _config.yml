@@ -1,5 +1,10 @@
 # basic options
 
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
