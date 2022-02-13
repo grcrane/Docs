@@ -1,14 +1,5 @@
 # basic options
-title: My awesome title
-author: George Crane
-email: georgecrane@mac.com
-description: My wonderful site
-twitter_username: grcrane
-github_username:  grcrane
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+
 
 # Build settings
 markdown: kramdown
