@@ -1,9 +1,9 @@
 # basic options
 
 pages_list:       
-  About: '/about.html'
-  Editor: '/editor.html'
-  Admin: '/admin.html'
+  About: '/Docs/about.html'
+  Editor: '/Docs/editor.html'
+  Admin: '/Docs/admin.html'
 
 # Build settings
 markdown: kramdown
