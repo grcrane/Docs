@@ -87,25 +87,28 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-$(document).ready(function() {
+/*$(document).ready(function() {
   $('#myTopnav a').on('click',function(e) {
     e.preventDefault(); 
     $('#myTopnav a').removeClass('active');
     $(this).addClass('active');
   })
-})
+})*/
 </script>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <div class="topnav" id="myTopnav">
       {% for page in site.pages_list %}
+      {% if {page[1]} == page.link %}
+        <a href="{{ page[1]  }}" class="active">{{ page[0] }}</a>
+      {% else %}
         <a href="{{ page[1]  }}">{{ page[0] }}</a>
+      {% endif %}
+      }
+      }
+      }
       {% endfor %}
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
