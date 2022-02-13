@@ -100,8 +100,12 @@ $(document).ready(function() {
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <div class="topnav" id="myTopnav">
       {% for page in site.pages_list %}
-        <a href="{{ page[1]  }}">{{ page[0] }}</a>
-      {% endfor %}
+  <a href="{{ page[1]  }}">{{ page[0] }}</a>
+{% endfor %}
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
