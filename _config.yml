@@ -8,4 +8,4 @@ github_username:  grcrane
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: cayman
