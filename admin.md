@@ -1,5 +1,5 @@
 ---
-title: "Admin"
+title: "Being a UIL Administrator"
 ---
 
 # About being an Admin

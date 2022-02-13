@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About UIL Documentation"
 ---
 
 # About this project
