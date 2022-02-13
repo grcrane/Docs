@@ -105,13 +105,15 @@ $(document).ready(function() {
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <br>url={{ page.url }}
     <div class="topnav" id="myTopnav">
-      {% for page in site.pages_list %}
-  <a href="{{ page[1]  }}">{{ page[0] }}</a>
-{% endfor %}
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+      {% for xpage in site.pages_list %}
+        {% if page.url == xpage[1] %}
+          <a href="{{ xpage[1]  }}" class="active">{{ xpage[0] }}</a>
+        {% else %}
+          <a href="{{ xpage[1]  }}">{{ xpage[0] }}</a>
+        {% endif %}
+        }
+      {% endfor %}
+        
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
