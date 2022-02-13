@@ -1,6 +1,5 @@
 ---
 title: "About"
-permalink: /Docs/about.html
 ---
 
 # About this project

@@ -1,6 +1,5 @@
 ---
 title: "Home"
-permalink: /Docs/readme.html
 ---
 
 ## Welcome to GitHub Pages
