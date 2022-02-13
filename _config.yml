@@ -12,4 +12,4 @@ pages_list:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: cayman
