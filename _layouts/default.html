@@ -83,22 +83,22 @@ function myFunction() {
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
+    <div style="padding-left:16px">
+      <h2>Responsive Topnav Example</h2>
+      <p>Resize the browser window to see how it works.</p>
+    </div>
     <header class="page-header" role="banner">
-      <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-      </div>
-
-      <div style="padding-left:16px">
-        <h2>Responsive Topnav Example</h2>
-        <p>Resize the browser window to see how it works.</p>
-      </div>
+      
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
