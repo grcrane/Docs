@@ -8,4 +8,4 @@ github_username:  grcrane
 
 # Build settings
 markdown: kramdown
-theme: cayman
+theme: jekyll-theme-cayman
