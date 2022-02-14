@@ -1,12 +1,13 @@
 # basic options
 
 pages_list:  
-  Home: '/'     
+  Home: '/'  
+  SquareSpace: '/squarespace.html'   
   About: '/about.html'
   Editor: '/editor.html'
   Admin: '/admin.html'
 
-
+ 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
