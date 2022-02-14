@@ -4,6 +4,7 @@ pages_list:
   Home: '/'  
   SquareSpace: '/squarespace.html'   
     Test: '/test.html'
+    Test2: '/test2.html'
   About: '/about.html'
   Editor: '/editor.html'
   Admin: '/admin.html'
