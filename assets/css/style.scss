@@ -18,7 +18,9 @@ header.page-header {
 }
 
 
-nav.navbar li.nav-item.active .nav-link {
+nav.navbar li.nav-item.active .nav-link,
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .show > .nav-link {
   color: orange;
 }
 
