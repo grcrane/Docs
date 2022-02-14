@@ -4,6 +4,7 @@
 //    "use strict"; window.location.reload(); 
 //  });
 
+$(document).ready(function() {
 
   document.addEventListener("DOMContentLoaded", function(){
         
@@ -53,3 +54,5 @@
 
   }); 
   // DOMContentLoaded  end
+ 	
+})
