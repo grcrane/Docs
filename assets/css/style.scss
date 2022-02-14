@@ -8,6 +8,16 @@
  }
 }
 
+header .project-tagline,
+header .btn {
+  display:  none;
+}
+
+header.page-header {
+  padding:  2rem 5rem;
+}
+
+
 nav.navbar li.nav-item.active .nav-link {
   color: orange;
 }
