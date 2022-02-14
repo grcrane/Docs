@@ -118,6 +118,24 @@ function myFunction() {
   
 
   <ul class="navbar-nav">
+
+    {% for xpage in site.pages_list %}  
+        {% if page.url == xpage[1] %}
+        <li class="nav-item active"> 
+          <a class="nav-link" href="/Docs{{ xpage[1]  }}">
+              {{ xpage[0] }}
+          </a> 
+        </li>
+        {% else %}
+        <li class="nav-item"> 
+          <a class="nav-link" href="/Docs{{ xpage[1]  }}">
+              {{ xpage[0] }}
+          </a> 
+        </li>
+        {% endif %}
+      {% endfor %}
+
+
     <li class="nav-item"> <a class="nav-link" href="/Docs">Home </a> </li>
     <li class="nav-item active"><a class="nav-link" href="/Docs/about.html"> About </a></li>
     <li class="nav-item"><a class="nav-link" href="/Docs/admin.html"> Admin </a></li>
