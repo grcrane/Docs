@@ -6,6 +6,9 @@ pages_list:
   About: '/about.html'
   Editor: '/editor.html'
   Admin: '/admin.html'
+  Test: 'testing'
+      What: '/abc.html'
+      That: '/abc2.html'
 
  
 # Build settings
