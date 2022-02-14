@@ -33,17 +33,27 @@
       {% assign status = '' %}
         {% if xpage[1].first %}
           {% assign key = xpage[0] %}
+          {% for xpage2 in xpage[1] %} 
+            {% if page.url == xpage2[1] %}
+              {% assign status = 'active' %}
+            {% endif %}
+          {% endfor %}
           <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{{ key }}</a>
+              <a class="nav-link dropdown-toggle {{ status }}" href="#" data-bs-toggle="dropdown">{{ key }}</a>
                 <ul class="dropdown-menu">
           {% for xpage2 in xpage[1] %} 
-                <li><a class="dropdown-item active" href="/Docs{{ xpage2[1]  }}"> {{ xpage2[0] }} </a></li>
+            {% assign status = '' %}
+            {% if page.url == xpage2[1] %}
+                {% assign status = 'active' %}
+            {% endif %}
+                <li><a class="dropdown-item {{ status }}" href="/Docs{{ xpage2[1]  }}"> {{ xpage2[0] }} </a></li>
           {% endfor %}
               </ul>
             </li>
         {% else %}
+          {% assign status = '' %}
           {% if page.url == xpage[1] %}
-          {% assign status = 'active' %}
+            {% assign status = 'active' %}
           {% endif %}
           <li class="nav-item {{ status }}"> 
             <a class="nav-link" href="/Docs{{ xpage[1]  }}">
