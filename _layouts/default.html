@@ -102,10 +102,10 @@ function myFunction() {
 
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <br>url={{ page.url }}
-    <br>site.pages_list={{site.pages_list }}
+    <br>site.pages_list[0]={{site.pages_list[0]}}
     <div class="topnav" id="myTopnav">
       {% for xpage in site.pages_list %}
-        {% if xpage[1] == /}
+        
         {% if page.url == xpage[1] %}
           <a href="/Docs{{ xpage[1]  }}" class="active">{{ xpage[0] }}</a>
         {% else %}
