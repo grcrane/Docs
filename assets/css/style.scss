@@ -7,6 +7,11 @@
    color: #ff0000;
  }
 }
+
+.navbar li.nav-item.active .nav-link {
+  color: orange;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 
