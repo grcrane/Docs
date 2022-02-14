@@ -120,8 +120,10 @@ function myFunction() {
   <ul class="navbar-nav">
 
     {% for xpage in site.pages_list %}  
+      {% assign status = '' %}
         {% if page.url == xpage[1] %}
-        <li class="nav-item active"> 
+        {% assign status = 'active' %}
+        <li class="nav-item {{ status }}"> 
           <a class="nav-link" href="/Docs{{ xpage[1]  }}">
               {{ xpage[0] }}
           </a> 
