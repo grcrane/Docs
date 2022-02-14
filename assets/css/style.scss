@@ -12,6 +12,10 @@
   color: orange;
 }
 
+.navbar-collapse {
+  flex-grow: 0;
+}
+
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 
