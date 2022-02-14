@@ -8,11 +8,11 @@
  }
 }
 
-.navbar li.nav-item.active .nav-link {
+nav.navbar li.nav-item.active .nav-link {
   color: orange;
 }
 
-#main_nav .navbar-collapse {
+nav.navbar #main_nav.navbar-collapse {
   flex-grow: 0;
 }
 
