@@ -31,8 +31,8 @@
 
     {% for xpage in site.pages_list %}  
       {% assign status = '' %}
-        {% if xpage.first %}
-          
+        {% if xpage[1].first %}
+
         {% else %}
           {% if page.url == xpage[1] %}
           {% assign status = 'active' %}
