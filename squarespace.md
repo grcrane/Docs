@@ -1,6 +1,5 @@
 ---
 title: "SquareSpace"
-link: "/Docs/squarespace.html"
 ---
 
 # About SquareSpace

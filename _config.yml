@@ -2,8 +2,7 @@
 
 pages_list:  
   Home: '/'  
-  SquareSpace: 
-    name: 'xyz'  
+  SquareSpace: '/squarespace.html'
   About: '/about.html'
   Editor: '/editor.html'
   Admin: '/admin.html'

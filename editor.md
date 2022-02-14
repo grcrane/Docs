@@ -1,6 +1,5 @@
 ---
 title: "Being a UIL Editor"
-link: "/Docs/editor.html"
 ---
 
 # About being an editor

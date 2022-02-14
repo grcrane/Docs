@@ -1,6 +1,5 @@
 ---
 title: "Being a UIL Administrator"
-link: "/Docs/admin.html"
 ---
 
 # About being an Admin
