@@ -123,18 +123,12 @@ function myFunction() {
       {% assign status = '' %}
         {% if page.url == xpage[1] %}
         {% assign status = 'active' %}
+        {% endif %}
         <li class="nav-item {{ status }}"> 
           <a class="nav-link" href="/Docs{{ xpage[1]  }}">
               {{ xpage[0] }}
           </a> 
         </li>
-        {% else %}
-        <li class="nav-item"> 
-          <a class="nav-link" href="/Docs{{ xpage[1]  }}">
-              {{ xpage[0] }}
-          </a> 
-        </li>
-        {% endif %}
       {% endfor %}
 
     <li class="nav-item dropdown">
