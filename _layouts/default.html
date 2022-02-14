@@ -103,10 +103,10 @@ function myFunction() {
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <br>url={{ page.url }}
     <br>site.pages_list[0]={{site.pages_list[0]}}
-   {% if page.url And page.url != "" And page.some_variable != nil %}
-    {{page.url}}
+   {% if page.url And page.url != "" And page.url != nil %}
+    <br>Not null
     {% else %}
-       page.url is not set
+       <br>page.url is not set
     {% endif %}
 
 
