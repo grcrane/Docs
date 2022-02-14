@@ -32,7 +32,11 @@
     {% for xpage in site.pages_list %}  
       {% assign status = '' %}
         {% if xpage[1].first %}
-          {{ xpage[0] }}
+          {% assign key = xpage[0] %}
+          {% for xpage2 in xpage[1] %} 
+
+           
+          {% endfor %}
         {% else %}
           {% if page.url == xpage[1] %}
           {% assign status = 'active' %}
