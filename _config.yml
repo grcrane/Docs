@@ -7,10 +7,9 @@ pages_list:
   Editor: '/editor.html'
   Admin: '/admin.html'
   Test: 
-      What: '/abc.html'
-      That: '/abc2.html'
+    About: '/about.html'
+    Editor: '/editor.html'
 
- 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
