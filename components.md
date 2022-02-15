@@ -8,16 +8,15 @@ title: "Components"
 
 **Table of Contents**
 
-<!-- MarkdownTOC levels"2,3,4" autolink="true" autoanchor="true" style="ordered" -->
+<!-- MarkdownTOC levels="3" autolink="true" autoanchor="true" style="ordered" -->
 
 1. [Carousel Slider](#carousel-slider)
-    1. [Dependancies](#dependancies)
 1. [Frequently Asked Questions \(FAQ\)](#frequently-asked-questions-faq)
 
 <!-- /MarkdownTOC -->
 
 <a id="carousel-slider"></a>
-### Carousel Slider
+### Carousel Slider 
 
 A SquareSpace summary block can be enabled as a carousel (via the design tab).   However, native nativation is a little limited.  We preferred a more intuitive naviation that automatically wraps around when the end is hit.
 
