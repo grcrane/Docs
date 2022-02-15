@@ -20,7 +20,7 @@ title: "Components"
 <a id="global-dependancies"></a>
 ### Global dependancies 
 
-Note that all of the custom functions described here depend on styles and scripts define in the [site header](/Docs/header_code), which is accessible via Home -> Settings -> Advanced -> Code Injection as:
+Note that all of the custom functions described here depend on styles and scripts define in the [site header](/Docs/header_code) and or [site footer](/Docs/footer_code), which is accessible via Home -> Settings -> Advanced -> Code Injection as:
 
 - jQuery styles and script links
 - [Custom function](/Docs/javascript.html) from UIL Github account

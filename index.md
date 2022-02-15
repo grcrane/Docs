@@ -6,32 +6,27 @@ title: "UIL Documentation"
 
 Welcome to the Unity in Learning technical documetation library.  Here we describe the construction of, and components used in the SquareSpace website for Unity in Learning.   This document is broken up into 4 sections 
 
-### [SquareSpace](squarespace.html) Website and Account
+### [Components](/Docs/components.html)
 
-#### Account
+This section describes the usage of additional custom code that was added to the UIL website, such as code to display Google Calendars, museum address blocks, frequently asked questions and others. 
 
-#### Domains
+### [Code](/Docs/code_overview.html)
 
-#### Plugins
-<hr>
-### Google [Spreadsheets](spreadsheets.html)
+This section is a catch all as a place to see the actual behind the scenes code that is referenced throughtout the website. Is it composed of mulitiple sections: 
 
-#### People and teams
+- Overview
+- Styles
+- Javascript
+- Header
+- Footer
 
-#### Donors
+### [Editor](/Docs/editor.html)
 
-#### Flip Cards
+Privileges and usage notes for site editors.
 
-#### FAQ's
+### [Admin](/Docs/admin.html)
 
-#### Calendars
-<hr>
-### CSS
-<hr>
-### JS
-<hr>
-### Editors Guid
-<hr>
-### Administrators Guide
-<hr>
-### Spreadsheet Admin Page
+Privileges and usage notes for site administrators.
+
+
+
