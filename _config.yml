@@ -9,6 +9,7 @@ pages_list:
     JavaScript: '/javascript.html'
     Header: '/header_code.html'
     Footer: '/footer_code.html'
+  Spreadsheets: '/spreadsheets.html'
   Editor: '/editor.html'
   Admin: '/admin.html'
 
