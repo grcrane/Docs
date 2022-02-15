@@ -2,8 +2,10 @@
 
 pages_list:  
   Home: '/'  
-  Styles: '/styles.html'
-  JavaScript: '/javascript.html'
+  Components: '/components.html'
+  Code: 
+    Styles: '/styles.html'
+    JavaScript: '/javascript.html'
   Editor: '/editor.html'
   Admin: '/admin.html'
 
