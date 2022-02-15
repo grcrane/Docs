@@ -41,7 +41,7 @@ nav.navbar > div.container-fluid {
   margin:  0 auto;
 } 
 
-.navbar-expand-lg .navbar-nav .dropdown-menu {
+.navbar-expand-lg .navbar-nav li:last-child .dropdown-menu {
   left:  unset;
   right: 0;
 }
