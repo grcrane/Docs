@@ -1,5 +1,5 @@
 ---
-title: "Being a UIL Editor"
+title: "UIL Editor's"
 ---
 
 # About being an editor
