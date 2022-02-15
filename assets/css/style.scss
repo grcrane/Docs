@@ -60,27 +60,28 @@ nav.navbar > div.container-fluid {
   .dropdown-menu > li:hover > .submenu{
     display: block;
   }
-
+/*
   nav.navbar > .container, 
   nav.navbar > .container-fluid, 
   nav.navbar > .container-lg, .navbar > 
   nav.container-md, 
   nav.navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
       margin: 0;
-  }
+  }*/
 
-  nav.navbar > div.container-fluid {
-  width:  100%;
-} 
 } 
 /* ============ desktop view .end// ============ */
 
 /* ============ small devices ============ */
 @media (max-width: 991px) {
 
-.dropdown-menu .dropdown-menu{
-    margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
-}
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+
+  nav.navbar > div.container-fluid {
+    width:  100%;
+  }
 
 } 
 /* ============ small devices .end// ============ */
