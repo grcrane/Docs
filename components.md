@@ -11,6 +11,7 @@ title: "Components"
 <!-- MarkdownTOC levels"2,3,4" autolink="true" autoanchor="true" style="ordered" -->
 
 1. [Carousel Slider](#carousel-slider)
+    1. [Dependancies](#dependancies)
 1. [Frequently Asked Questions \(FAQ\)](#frequently-asked-questions-faq)
 
 <!-- /MarkdownTOC -->
@@ -32,6 +33,12 @@ To accomplish that goal, a plugin called **Slick Carousel** was implemented in a
 
 Note that the function call "createCarousel" is being passed the selector id for the div tag that follows.  If you have multiple carousels on the same page, then the selector id's must be unique.  
 
+<a id="dependancies"></a>
+#### Dependancies
+
+- jQuery links in [header](/Docs/header_code.html)
+- Slick plugin Script/Style links in header
+- Custom Javascript function 
 
 <a id="frequently-asked-questions-faq"></a>
 ### Frequently Asked Questions (FAQ)
