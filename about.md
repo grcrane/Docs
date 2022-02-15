@@ -8,6 +8,8 @@ In a word: **Awesome!**
 
 See the [Home page](/Docs/index.html)
 
+**Syntax:**
+
 ```
 this is a test
 sns
