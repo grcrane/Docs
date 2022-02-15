@@ -2,8 +2,8 @@
 
 pages_list:  
   Home: '/'  
-  SquareSpace: '/styles.html'
-  About: '/javascript.html'
+  Styles: '/styles.html'
+  JavaScript: '/javascript.html'
   Editor: '/editor.html'
   Admin: '/admin.html'
 
