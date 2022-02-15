@@ -2,13 +2,10 @@
 
 pages_list:  
   Home: '/'  
-  SquareSpace: '/squarespace.html'
-  About: '/about.html'
+  SquareSpace: '/styles.html'
+  About: '/javascript.html'
   Editor: '/editor.html'
   Admin: '/admin.html'
-  Test: 
-    About: '/about.html'
-    Editor: '/editor.html'
 
 # Build settings
 markdown: kramdown
