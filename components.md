@@ -10,11 +10,20 @@ title: "Components"
 
 <!-- MarkdownTOC levels="3" autolink="true" autoanchor="true" style="ordered" -->
 
+1. [Global dependancies](#global-dependancies)
 1. [Carousel Slider](#carousel-slider)
 1. [Calendar of Events](#calendar-of-events)
 1. [Frequently Asked Questions \(FAQ\)](#frequently-asked-questions-faq)
 
 <!-- /MarkdownTOC -->
+
+<a id="global-dependancies"></a>
+### Global dependancies 
+
+Note that all of the custom functions described here depend on styles and scripts define in the site header as:
+- jQuery styles and script links
+- [Custom function](/Docs/javascript.html) in UIL Github account
+- [Custom styles](/Docs/styles.html) in UIL Github account
 
 <a id="carousel-slider"></a>
 ### Carousel Slider 
@@ -34,14 +43,9 @@ $(document).ready(function(){
 
 Note that the function call "**createCarousel**" is being passed the selector id (#announcementCarousel) for the div tag that follows.  If you have multiple carousels on the same page, then the selector id's must be unique.  Ie. the second carousel might use #announcementCarousel2. 
 
-** 
-
 <a id="dependancies"></a>
 **Carousel Slider Depenancies**
 
-- jQuery links in [header](/Docs/header_code.html)
-- [Custom function](/Docs/javascript.html)
-- [custom styles](/Docs/styles.html)
 - Slick plugin Script/Style links in [header](/Docs/header_code.html)
 - Code block (see above)
 - Defined SquareSpace summary block as carousel
@@ -50,7 +54,7 @@ Note that the function call "**createCarousel**" is being passed the selector id
 ### Calendar of Events
 
 The calendar custom function grabs data from a Google spreadsheet (calendar) and embeds Google calendars within an iframe on the page.  It uses the spreadsheet information to get the associated Google ID, iframe embed code, museum and title.
- 
+
 The calendar of events block is emplemented by adding a code block to the page with the following:
 
 **Code block for calendar of events
@@ -76,7 +80,7 @@ $(document).ready(function() {
 ```
 Note that the function call "**build_calendars**" is being passed the number "2", which tells the function to select calendar number 2 (Leslie Science) as the default when opened.  
 
-**Calendar number legoned**
+**Calendar number legend**
 
 0. All locations (0 or null)
 1. Ann Arbor Hands On
@@ -84,12 +88,12 @@ Note that the function call "**build_calendars**" is being passed the number "2"
 3. Yankee Air Museum
 4. Challenger Learning Center
 
-**Calendar Dependancies
+**Calendar Dependancies**
 - jQuery links in [header](/Docs/header_code.html)
 - [Custom function](/Docs/javascript.html)
 - [custom styles](/Docs/styles.html)
 - Code block (see above)
-- Spreadsheet data
+- [Spreadsheet data](/Docs/spreadsheets.html)
 
 <a id="frequently-asked-questions-faq"></a>
 ### Frequently Asked Questions (FAQ)
