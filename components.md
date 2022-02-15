@@ -37,8 +37,8 @@ Note that the function call "createCarousel" is being passed the selector id for
 #### Dependancies
 
 - jQuery links in [header](/Docs/header_code.html)
-- Slick plugin Script/Style links in header
-- Custom Javascript function 
+- Slick plugin Script/Style links in [header](/Docs/header_code.html)
+- Custom [Javascript function] (/Docs/javascript.html) 
 
 <a id="frequently-asked-questions-faq"></a>
 ### Frequently Asked Questions (FAQ)
