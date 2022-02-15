@@ -41,7 +41,7 @@ nav.navbar > div.container-fluid {
   margin:  0 auto;
 } 
 
-nav.navbar .navbar-nav ul li:last-child ul {
+nav.navbar .navbar-expand-lg .navbar-nav li:last-child .dropdown-menu {
   left:  unset;
   right: 0;
 }
@@ -81,7 +81,9 @@ nav.navbar .navbar-nav ul li:last-child ul {
 @media (max-width: 991px) {
 
   .dropdown-menu .dropdown-menu{
-      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+      margin-left:0.7rem; 
+      margin-right:0.7rem; 
+      margin-bottom: .5rem;
   }
 
   nav.navbar > div.container-fluid {
