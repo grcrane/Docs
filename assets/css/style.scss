@@ -36,10 +36,6 @@ nav.navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
   margin: 0 5%;
 }
 
-nav.navbar > div.container-fluid {
-  width:  90%;
-} 
-
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 
@@ -67,10 +63,6 @@ nav.navbar > div.container-fluid {
   nav.navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
       margin: 0;
   }
-
-  nav.navbar > div.container-fluid {
-  width:  100%;
-} 
 } 
 /* ============ desktop view .end// ============ */
 
