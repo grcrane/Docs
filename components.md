@@ -21,10 +21,12 @@ title: "Components"
 ### Global dependancies 
 
 Note that all of the custom functions described here depend on styles and scripts define in the [site header](/Docs/header_code), which is accessible via Home -> Settings -> Advanced -> Code Injection as:
+
 - jQuery styles and script links
-- [Custom function](/Docs/javascript.html) in UIL Github account
-- [Custom styles](/Docs/styles.html) in UIL Github account
-- Slick styles and script links
+- [Custom function](/Docs/javascript.html) from UIL Github account
+- [Custom styles](/Docs/styles.html) from UIL Github account
+- Slick plugin styles and script links
+- Lazy Summaries styles and script links in footer. 
 
 <a id="carousel-slider"></a>
 ### Carousel Slider 
