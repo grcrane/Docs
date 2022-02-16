@@ -91,8 +91,10 @@ Note that the function call "**build_calendars**" is being passed the number "2"
 
 | Parameter | Description |
 | --------- | ----------- |
-| Calendar | Optional<br>
-line 2 |
+| Calendar | - Optional
+- one
+- two
+- thee|
 
 
 
