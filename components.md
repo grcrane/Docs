@@ -87,18 +87,7 @@ Note that the function call "**build_calendars**" is being passed the number "2"
 
 *build_calendars(calendar)*
 
-***Parameters***
-
-| Parameter | Description |
-| --------- | ----------- |
-| Calendar | - Optional
-- one
-- two
-- thee|
-
-
-
-**Calendar_number legend**
+**Where Calendar is:**
 
 - 0, All museums (or null)
 - 1, Ann Arbor Hands On
