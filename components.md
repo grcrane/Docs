@@ -81,14 +81,27 @@ $(document).ready(function() {
   </div>
 </div>
 ```
-Note that the function call "**build_calendars**" is being passed the number "2", which tells the function to select calendar number 2 (Leslie Science) as the default when opened.  
+Note that the function call "**build_calendars**" is being passed the number "2", which tells the function to select calendar number 2 (Leslie Science) as the default when opened. 
 
-**Calendar number legend**
+**Syntax:**
 
-1. Ann Arbor Hands On
-2. Leslie Science
-3. Yankee Air Museum
-4. Challenger Learning Center
+*build_calendars(calendar)*
+
+**Parameeters**
+
+*| Parameter | Description |
+| --------- | ----------- |
+| Calendar | Optional |*
+
+
+
+**Calendar_number legend**
+
+- # 0, All museums (or null)
+- # 1, Ann Arbor Hands On
+- # 2, Leslie Science
+- # 3, Yankee Air Museum
+- # 4, Challenger Learning Center
 
 ***Note:** use 0 (zero) or null for all museums.**
 
