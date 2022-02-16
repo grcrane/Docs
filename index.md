@@ -6,6 +6,10 @@ title: "UIL Documentation"
 
 Welcome to the Unity in Learning technical documetation library.  Here we describe the construction of, and components used in the SquareSpace website for Unity in Learning.   This document is broken up into 5 sections 
 
+### Services & Plugins
+
+Several different outside services are needed in support of SquareSpace, which is the website hosting service.  See: [Services & Plugins](/Docs/services.html) 
+
 ### Components
 
 This section describes the usage of additional custom code that was added to the UIL website, such as code to display Google Calendars, museum address blocks, frequently asked questions and others. See: [Components](/Docs/components.html)
