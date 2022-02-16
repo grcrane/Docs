@@ -64,31 +64,20 @@ The calendar of events block is emplemented by adding a code block to the page w
 ```
 <script>
 $(document).ready(function() {
-  build_calendars(2); 
-  $('.singleAccordion .toggle a').click(function(e) {
-    e.preventDefault(); 
-    $(this).toggleClass("open");
-    $('.singleAccordion #calendarsContainer').slideToggle('slow');
-    //$('#ui-id-2').trigger('click');
-  });
+  build_calendars('#calendarDiv',1, false);  
 })
 </script>
-<div class="singleAccordion">
-  <div class="toggle">
-    <a href=""></i>View Our Calendar of Events</a>
-  </div>
-  <div id="calendarsContainer">
-  </div>
-</div>
+<body>
+<div id="calendarDiv"></div>
 ```
 Note that the function call "**build_calendars**" is being passed the number "2", which tells the function to select calendar number 2 (Leslie Science) as the default when opened. 
 
 **Syntax:**
 
-*build_calendars(calendar)*
+*build_calendars(selector, activeTab, expanded)*
 
-**Where *Calendar* is:**
-
+**Where *activeTab* is:**
+d
 - 0, All museums (or null)
 - 1, Ann Arbor Hands On
 - 2, Leslie Science
