@@ -3,6 +3,7 @@
 pages_list:  
   Home: '/'  
   Components: '/components.html'
+  Services: '/services.html'
   Code: 
     Overview: '/code_overview.html'
     Styles: '/styles.html'
