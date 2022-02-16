@@ -87,15 +87,13 @@ Note that the function call "**build_calendars**" is being passed the number "2"
 
 *build_calendars(calendar)*
 
-**Where Calendar is:**
+**Where *Calendar* is:**
 
 - 0, All museums (or null)
 - 1, Ann Arbor Hands On
 - 2, Leslie Science
 - 3, Yankee Air Museum
 - 4, Challenger Learning Center
-
-***Note:** use 0 (zero) or null for all museums.**
 
 **Calendar Dependancies**
 - Code block (see above)
