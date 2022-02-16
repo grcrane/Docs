@@ -20,7 +20,7 @@ title: "Components"
 <a id="global-dependancies"></a>
 ### Global dependancies 
 
-Note that all of the custom functions described here depend on styles and scripts define in the [site header](/Docs/header_code) and or [site footer](/Docs/footer_code), which is accessible via Home -> Settings -> Advanced -> Code Injection as:
+Note that all of the custom functions described here depend on styles and scripts define in the [Site header](/Docs/header_code) and or [Site footer](/Docs/footer_code), which is accessible via Home -> Settings -> Advanced -> Code Injection as:
 
 - jQuery styles and script links
 - [Custom function](/Docs/javascript.html) from UIL Github account
@@ -33,7 +33,7 @@ Note that all of the custom functions described here depend on styles and script
 
 A SquareSpace summary block can be enabled as a carousel (via the design tab).   However, native nativation is a little limited.  We preferred a more intuitive naviation that automatically wraps around when the end is hit.
 
-To accomplish that goal, a plugin called **Slick Carousel** was implemented in addition to some custom JavaScript code wrapper.  To implement this, you must first define a standard SquareSpace carousel.  Then, immediately before the caroussel, add a code block with the following: 
+To accomplish that goal, a plugin called **Slick Carousel** ([https://kenwheeler.github.io/slick/](https://kenwheeler.github.io/slick/))was implemented in addition to some custom JavaScript code wrapper.  To implement this, you must first define a standard SquareSpace carousel.  Then, immediately before the caroussel, add a code block with the following: 
 
 **Code block before carousel**
 ```
@@ -60,7 +60,7 @@ The calendar custom function grabs data from a Google spreadsheet (calendar) and
 
 The calendar of events block is emplemented by adding a code block to the page with the following:
 
-**Code block for calendar of events
+**Code block for calendar of events**
 ```
 <script>
 $(document).ready(function() {
@@ -85,16 +85,14 @@ Note that the function call "**build_calendars**" is being passed the number "2"
 
 **Calendar number legend**
 
-0. All locations (0 or null)
 1. Ann Arbor Hands On
 2. Leslie Science
 3. Yankee Air Museum
 4. Challenger Learning Center
 
+***Note:** use 0 (zero) or null for all museums.**
+
 **Calendar Dependancies**
-- jQuery links in [header](/Docs/header_code.html)
-- [Custom function](/Docs/javascript.html)
-- [custom styles](/Docs/styles.html)
 - Code block (see above)
 - [Spreadsheet data](/Docs/spreadsheets.html)
 
