@@ -49,7 +49,7 @@ Note that the function call "**createCarousel**" is being passed the selector id
 <a id="dependancies"></a>
 **Carousel Slider Depenancies**
 
-- Slick plugin Script/Style links in [header](/Docs/header_code.html)
+- Slick plugin Script/Style links in site header
 - Code block (see above)
 - Defined SquareSpace summary block as carousel
 
@@ -77,8 +77,8 @@ Note that the function call "**build_calendars**" is being passed the number "2"
 *build_calendars(selector, activeTab, expanded)*
 
 **Where *activeTab* is:**
-d
-- 0, All museums (or null)
+
+- 0, All museums (or null) - Default
 - 1, Ann Arbor Hands On
 - 2, Leslie Science
 - 3, Yankee Air Museum
