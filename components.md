@@ -67,7 +67,6 @@ $(document).ready(function() {
   build_calendars('#calendarDiv',1, false);  
 })
 </script>
-<body>
 <div id="calendarDiv"></div>
 ```
 Note that the function call "**build_calendars**" is being passed the number "2", which tells the function to select calendar number 2 (Leslie Science) as the default when opened. 
