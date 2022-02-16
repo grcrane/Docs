@@ -87,11 +87,12 @@ Note that the function call "**build_calendars**" is being passed the number "2"
 
 *build_calendars(calendar)*
 
-**Parameeters**
+***Parameters***
 
-*| Parameter | Description |
+| Parameter | Description |
 | --------- | ----------- |
-| Calendar | Optional |*
+| Calendar | Optional<br>
+line 2 |
 
 
 
