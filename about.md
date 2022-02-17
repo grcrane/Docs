@@ -4,6 +4,11 @@ title: "About UIL Documentation"
 
 # About this project
 
+<script>
+	alert('hi there');
+</script>
+<div id="test">hi</div>
+
 In a word: **Awesome!**
 
 See the [Home page](/Docs/index.html)
