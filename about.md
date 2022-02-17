@@ -207,6 +207,18 @@ div.idImage {
 
 <script>
 
+	function formatURL(file_id, sheet, query) {
+  var d = new Date();
+  var n = d.getTime(); 
+  var temp = 'https://docs.google.com/spreadsheets/u/0/d/'
+  + file_id + '/gviz/tq?headers=1&sheet=' + sheet 
+  + '&t=' + n 
+  + '&tqx=out:json&headers=1&tq=' + 
+  escape(query);
+  //alert(temp);
+  return temp; 
+}
+
 /* https://stackoverflow.com/questions/19491336/how-to-get-url-parameter-using-jquery-or-plain-javascript */
 function getSearchParams(k){
  var p={};
