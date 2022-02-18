@@ -44,7 +44,7 @@ $(document).ready(function(){
 <div id="announcementCarousel"></div>
 ```
 
-Note that the function call "**createCarousel**" is being passed the selector id (#announcementCarousel) for the div tag that follows.  If you have multiple carousels on the same page, then the selector id's must be unique.  Ie. the second carousel might use #announcementCarousel2. 
+Note that the function call "**createCarousel**" is being passed the hi thee selector id (#announcementCarousel) for the div tag that follows.  If you have multiple carousels on the same page, then the selector id's must be unique.  Ie. the second carousel might use #announcementCarousel2. 
 
 <a id="dependancies"></a>
 **Carousel Slider Depenancies**
